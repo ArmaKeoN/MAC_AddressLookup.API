@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAC_AddressLookup.API", "MAC_AddressLookup.API\MAC_AddressLookup.API.csproj", "{08639177-21BB-4FB7-B811-E34566ECA1F6}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9236E8E4-DF43-4C64-B9E4-F6B0B4291320}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{08639177-21BB-4FB7-B811-E34566ECA1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08639177-21BB-4FB7-B811-E34566ECA1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08639177-21BB-4FB7-B811-E34566ECA1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9236E8E4-DF43-4C64-B9E4-F6B0B4291320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9236E8E4-DF43-4C64-B9E4-F6B0B4291320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9236E8E4-DF43-4C64-B9E4-F6B0B4291320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9236E8E4-DF43-4C64-B9E4-F6B0B4291320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
