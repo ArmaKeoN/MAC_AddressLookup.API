@@ -1,7 +1,6 @@
-﻿using System.Net.Http.Headers;
-using MAC_AddressLookup.API;
+﻿using MAC_AddressLookup.API;
 using Newtonsoft.Json;
-using System.Text.Json;
+using System.Net.Http.Headers;
 
 Console.WriteLine("Please proivde a MAC address: ");
 
@@ -27,7 +26,7 @@ else
                   response.ReasonPhrase);
 }
 
-if(root.macAddressDetails.isValid)
+if(root != null && root.macAddressDetails.isValid)
 {
     Console.WriteLine("The provided MAC Address to search for is valid and here and the following details:");
     Console.WriteLine("Company Name: " + root.vendorDetails.companyName);
