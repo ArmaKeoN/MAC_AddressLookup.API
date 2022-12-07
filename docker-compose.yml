@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  mac_addresslookup.api:
-    image: ${DOCKER_REGISTRY-}macaddresslookup
-    build:
-      context: .
-      dockerfile: MAC_AddressLookup.API/Dockerfile
