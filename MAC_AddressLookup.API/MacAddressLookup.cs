@@ -1,5 +1,4 @@
-﻿using System;
-namespace MAC_AddressLookup.API
+﻿namespace MAC_AddressLookup.API
 {
     public class BlockDetails
     {
